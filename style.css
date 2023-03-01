@@ -1,0 +1,861 @@
+   *{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+overflow-x: hidden;
+background-color:#2B2B2B;   
+}
+@font-face {
+font-family: 'work sans';
+src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'space';
+    src: url(fonts/SpaceMono-Bold.ttf);
+    }
+    .navbar-nav{
+    align-items: center;
+    gap: 20px;
+    }
+    .nav-link{
+    display: flex;
+    font-family: 'work sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration:none;
+    }
+    .Sign{
+    color: #FFFFFF;
+    border: none;
+    width: 152px;
+    height: 60px;
+    background: #A259FF;
+    border-radius: 20px;
+    }
+    .Sign:hover{
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #A259FF;
+    }
+    .logo{
+    align-items: center;
+    gap: 10px;
+    font-family: 'space';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: flex;
+    }
+    .discover{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    color: #FFFFFF;
+    white-space: nowrap;
+    }
+    .discription{
+    font-family: 'Work Sans';
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    white-space:nowrap;
+    } 
+    .appear{
+        display: none;
+    }
+    .btn-28:hover{
+        background-color: #A259FF;
+        color: #2B2B2B;
+    }
+    .btn-28:hover button, .btn-28:hover path{
+        fill:#2B2B2B;
+    }
+    .btn-28{
+        /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 50px;
+gap: 12px;
+
+width: 187px;
+height: 60px;
+
+/* Call to Action */
+color: #A259FF;
+border: 2px solid #A259FF;
+border-radius: 20px;
+top: -85px;
+position: relative;
+    }
+    .btn-29{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 50px;
+gap: 12px;
+
+width: 100%;
+height: 60px;
+color: #A259FF;
+border: 2px solid #A259FF;
+border-radius: 20px;
+top: 0px;
+position: relative;
+    }
+    .btn-29:hover{
+        background-color: #A259FF;
+        color: #2B2B2B;
+    }
+    .btn-29:hover button, .btn-29:hover path{
+        fill:#2B2B2B;
+    }
+    .btn-29{
+        visibility: hidden;
+    }
+    .numbers{
+        margin-top: 50px;
+    }
+    .br2{
+        visibility: hidden;
+    }
+    @media(min-width:1400px){
+        .line{
+            gap: 55px !important;
+        }
+    }
+    @media (max-width:1200px) {
+        .MrFox{
+            margin-top: 4em;
+            display: flex;
+            justify-content: center;
+        }
+        .container4{
+            margin-top: -6.5rem!important;
+        }
+        .container3{
+            margin-top: -2.5rem!important;
+        }
+        .br1{
+            display: none;
+        }
+        .br2{
+           visibility: visible;
+        }
+        .card7{
+            scale: 0.6;
+        }
+        .main{
+            flex-direction: column;
+    display: flex;
+        }
+        
+        .card4{
+margin-top: -50px;
+width: 315px !important;
+height: 100px!important;
+}    
+.avatar2{
+margin-top: -70px !important;
+margin-left: 5px !important;
+scale: 0.6;
+}
+.collum{
+gap: 0px;
+flex-direction: column !important;
+}
+.appear{
+display: flex;
+}
+.text-2{
+margin-top: -5.5em !important;
+}
+
+.Keepitreal{
+font-family: 'Work Sans';
+font-weight: 600;
+font-size: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+.card1{
+margin-left: -190px!important;
+display: flex!important;
+justify-content: center!important;
+}
+
+.discription {
+font-size: 15px!important;
+line-height: 140%!important;
+white-space: nowrap!important; 
+}
+.discover{
+font-size: 28px!important;
+line-height: 140%!important;
+padding: 0!important;
+}   
+.dissapear{
+display: none;
+}
+.text{
+font-weight: 600!important;font-size: 28px!important;
+line-height: 140%!important;
+margin-left: 5px!important;
+}
+.text-1{
+font-weight: 400!important;
+font-size: 16px!important;
+line-height: 140%!important;
+}
+
+.cat{
+width: 315px!important;
+height: 315px!important;
+margin-left:35px!important;
+}
+.Total{
+font-size: 16px!important;
+}
+.Auctions{
+font-size: 16px!important;
+}
+
+.Artists{
+font-size: 16px!important;
+}
+.bear{
+width: 95px!important;
+height: 95px!important;
+}
+.br2{
+display: flex!important;
+}
+.card2{
+display: none !important;
+}
+.card3{
+display: none !important;
+}
+.numbers{
+justify-content: center;
+gap: 80px;
+display: flex;
+}
+.section51{
+    gap: 350px !important;
+}
+.galaxy2{
+    visibility: hidden;
+}
+
+}
+@media (max-width: 1000px ) { 
+.section51{
+    gap: 200px !important;
+}
+}
+@media (max-width: 765px) {
+.image1{
+    width: 100% !important;
+}
+    .btn-28{
+        visibility: hidden;
+    }
+    .btn-29{
+        visibility: visible;
+    }
+    .container4{
+        margin-top: -2.5rem!important;
+    }
+    .main1{
+        display: flex;
+        flex-direction: row;
+    }
+.content1{
+    flex-direction: column!important;
+}
+#change{
+    justify-content: center;
+    display: flex;
+}
+.section51{
+    flex-direction: column;
+    gap: 20px !important;
+}
+.galaxy2{
+    visibility: visible;
+}
+.getstart{
+width: 100% !important;
+}
+}
+@media (max-width: 575px){
+
+.image1{
+vertical-align: bottom;
+width:100%;
+}
+}  
+
+.getstart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 12px;
+    background-color: #A259FF;
+    width: 224px;
+    height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    top: 0px;
+    position: relative;
+    border: none;
+}
+.section6{
+    background-size: 100% 100%;
+    width: 100%;
+    height: 640px;
+    background-image: url(Images/nft.jpg);
+}
+.getstart:hover{
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    border: 2px solid #A259FF;
+}
+.getstart path{
+    fill:#FFFFFF;
+
+}
+.getstart:hover button, .getstart:hover path{
+    fill:#FFFFFF;
+}
+.n240k{
+font-family:'Space';
+font-size: 28px;
+color: #FFFFFF;
+}
+.n100k{
+font-family:'Space';
+font-size: 28px;
+color: #FFFFFF;
+}
+.n240kk{
+font-family:'Space';
+font-size: 28px;
+color: #FFFFFF; 
+}
+.Total{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 23.99px;
+line-height: 160%;
+color: #FFFFFF;
+white-space: nowrap;
+}  
+.Auctions{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 23.99px;
+line-height: 160%;
+color: #FFFFFF;
+}
+.Artists{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 23.99px;
+line-height: 160%;
+color: #FFFFFF;
+} 
+.n100k{
+font-family:'Space';
+font-weight: 700;
+font-size: 28px;
+line-height: 140%;
+color: #FFFFFF;       
+}
+.n240kk{
+font-family:'Space';
+font-weight: 700;
+font-size: 28px;
+line-height: 140%;
+color: #FFFFFF;      
+}
+.Total{
+font-family:'Work sans';
+font-weight: 400;
+font-size: 23.99px;
+line-height: 160%;
+color: #FFFFFF;
+}
+.text{
+font-family:'Work Sans';
+font-size: 38px;
+line-height: 120%;
+color: #FFFFFF;
+
+}
+.text-1{
+font-family:'Work Sans';
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+color: #FFFFFF;
+
+}
+.btn-25{
+height:100px;
+background: #A259FF;
+border-radius: 20px;
+font-family: 'Space';
+font-weight: 700;
+font-size: 22px;
+border: none;
+width: 100px; 
+color: #FFFFFF;
+}.dog{
+width: 100% !important;
+height: auto !important;
+}
+.cat{
+width: 100%;
+height: auto;
+}
+.animals{
+font-family:'Work sans';
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.MrFox1{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.Creators{
+font-family: 'Work Sans';
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+color: #FFFFFF;
+}
+.Checkout{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+color: #FFFFFF;   
+}
+.card4{
+ width: 240px;
+height: 238px;
+background: #3B3B3B;
+border-radius: 20px;
+}
+.card5{
+ width: 240px;
+height: 238px;
+background: #3B3B3B;
+border-radius: 20px;
+}
+.card6{
+ width: 240px;
+height: 238px;
+background: #3B3B3B;
+border-radius: 20px;
+}
+.number-6{
+background: #2B2B2B;
+border-radius: 20px;
+font-family: 'Space Mono';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #858584;
+width: 30px;
+height: 30px;
+position: relative;
+z-index: 1;
+}
+.avatar2{
+margin-top:-38px;
+margin-left:59px;
+}
+.Keepitreal1
+
+{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+color: #FFFFFF;
+text-align: center;
+}
+.digilab{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+color: #FFFFFF;
+text-align: center;
+}
+
+.card7{
+width: 240px;
+height: 316px;
+background: #3B3B3B;
+border-radius: 20px;
+}
+.Art{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+color: #FFFFFF;
+text-align:left;
+}
+.Explore{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+color: #FFFFFF;
+}
+.galaxy{
+width: 330px;
+height: 469px;
+background: #3B3B3B;
+border-radius: 20px;
+}
+.galaxy2{
+width: 330px;
+height: 470px;
+background: #3B3B3B;
+border-radius: 20px;
+}
+.Distant{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.price1{
+font-family: 'Space';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+color: #858584;
+}
+.bid{
+font-family: 'Space';
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+color: #858584;
+margin-left:140px;
+}
+.ETH{
+display: flex;
+gap: 100px;
+font-family: 'space';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+margin-top: -10px;
+}
+.wETH{
+font-family: 'Space';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.shromie{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+}
+.collumn2{
+height: 220px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+.magic{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 51px;
+line-height: 110%;
+color: #FFFFFF;
+}
+.see{
+width: 198px;
+height: 60px;
+border: none;
+background: #FFFFFF;
+border-radius: 20px;
+}
+.transperant{
+    width: 295px;
+height: 144px;
+background: rgba(59, 59, 59, 0.5);
+backdrop-filter: blur(5px);
+border-radius: 20px;
+}
+.time{
+font-family: 'Space Mono';
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+color: #FFFFFF;
+margin-left: auto;
+width: 295px;
+height: 144px;
+background: rgba(59, 59, 59, 0.5);
+border-radius: 20px;
+padding: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.works{
+font-family: 'Work Sans';
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.card8{
+width: 330px;
+height: 439px;
+background: #3B3B3B;
+border-radius: 20px;
+padding: 10px 30px 30px 30px;
+}
+.circle1{
+display: flex;
+justify-content: center;
+}
+.set{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.discription1{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+width: 270px;
+text-align: center;
+color: #FFFFFF;
+}
+.section71{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 60px;
+gap: 80px;
+
+width: 1050px;
+height: 430px;
+
+background: #3B3B3B;
+border-radius: 20px;
+}
+.astrolnout{
+    width: 425px;
+height: 310px;
+
+background: url(Images/Photo.png);
+border-radius: 20px;
+}
+.join{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-top: -100px
+}
+.discription2{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+
+}
+.enter{
+padding: 19px 220px 19px 20px;
+background: #FFFFFF;
+border-radius: 20px;
+width:425px;
+border: none;
+height: 60px;
+}
+.subscribe{
+z-index: 1;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+color: #FFFFFF;
+gap: 12px;
+width: 211px;
+height: 60px;
+background: #A259FF;
+border-radius: 20px;
+border: none;
+padding: 19px 50px;
+margin-top: -60px;
+position: relative;
+margin-left: 215px;
+}
+.footer1> a{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #CCCCCC;
+}
+.section8{
+width:100%;
+height: 355px;
+background: #3B3B3B;
+display: flex;
+align-items: flex-end;
+margin-top: 100px;
+}
+.market1{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #CCCCCC;
+text-decoration: none;
+}
+.footer1{
+    flex-direction: column;
+}
+.join2{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #CCCCCC;
+text-decoration: none; 
+height: 50px;
+display: flex;
+}
+.logo2{
+font-family: 'Space';
+font-weight: 700;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.footer-body{
+margin-top: 30px;
+}
+.join3{
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.gap-main{
+    height: 60px;
+}
+.line2{
+width: 1280px;
+height: 0px;
+border: 1px solid #858584;
+display: flex;
+margin: 0 auto;
+}
+.freely{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 12px;
+line-height: 110%;
+color: #CCCCCC;
+}
+
+
+.total3{
+color: #FFFFFF;
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 12px;
+color: #CCCCCC;
+text-align: center;
+}
+.creators{
+background-color: #3B3B3B !important;
+border-radius: 20px !important;
+width:100% !important;
+height: auto !important;
+
+}
+
+.total-sales{
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+}
+.sales1{
+    white-space: nowrap;
+
+    font-family: 'Work';
+font-weight: 400;
+font-size: 16px;
+}
